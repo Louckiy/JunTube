@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JunTube</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__first-block">
+            <button class="burger-menu">
+                <span class="iconify burger-menu__icon" data-icon="ci:hamburger-md"></span>
+            </button>
+            <div class="logo">
+                <span class="iconify logo__icon" data-icon="fa:youtube-play"></span>
+                <span class="logo__text">JunTube</span>
+            </div>
+        </div>
+        <div class="header__second-block">
+            <form action="" class="header__form">
+                <input type="text" class="header__input" placeholder="Введите запрос">
+                <button class="header__btn">
+                    <span class="iconify header__btn-icon" data-icon="quill:search-alt"></span>
+                </button>
+            </form>
+            <button class="header__sub-btn">
+                <span class="iconify header__sub-btn-icon" data-icon="ic:round-keyboard-voice"></span>
+            </button>
+        </div>
+    </header>
+<main class="main">
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="ic:round-home"></span>
+                <span class="nav__text">Главное</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="proicons:youtube-shorts"></span>
+                <span class="nav__text">Shorts</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="eos-icons:activate-subscriptions-outlined"></span>
+                <span class="nav__text">Подписки</span>
+            </li>
+        </ul>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="solar:history-bold"></span>
+                <span class="nav__text">История</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="tabler:playlist-add"></span>
+                <span class="nav__text">Плейлисты</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="icon-park-outline:video"></span>
+                <span class="nav__text">Ваши видео</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="icon-park-outline:time"></span>
+                <span class="nav__text">Смотреть позже</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="mdi:like"></span>
+                <span class="nav__text">Понравившиеся</span>
+            </li>
+        </ul>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="mingcute:fire-line"></span>
+                <span class="nav__text">В тренде</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="mage:music-fill"></span>
+                <span class="nav__text">Музыка</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="fluent:filmstrip-32-regular"></span>
+                <span class="nav__text">Фильмы и сериалы</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="icon-park-outline:broadcast"></span>
+                <span class="nav__text">Трансляции</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="fluent:games-24-regular"></span>
+                <span class="nav__text">Видеоигры</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="ri:news-line"></span>
+                <span class="nav__text">Новости</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="fluent:sport-24-regular"></span>
+                <span class="nav__text">Спорт</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="ph:chalkboard-teacher"></span>
+                <span class="nav__text">Обучение</span>
+            </li>
+        </ul>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="material-symbols:settings-outline"></span>
+                <span class="nav__text">Настройки</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="material-symbols:flag-outline"></span>
+                <span class="nav__text">Жалобы</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="codicon:question"></span>
+                <span class="nav__text">Справка</span>
+            </li>
+            <li class="nav__item">
+                <span class="iconify nav__icon" data-icon="material-symbols:feedback-outline-rounded"></span>
+                <span class="nav__text">Отправить отзыв</span>
+            </li>
+        </ul>
+        <p class="nav__desk">&copy; Все права не защищены</p>
+    </nav>
+    <div class="content">
+        <div class="tabs">
+            <div class="tab active">Всё</div>
+            <div class="tab">Сейчас в эфире</div>
+            <div class="tab">Видеоигры</div>
+            <div class="tab">Музыка</div>
+            <div class="tab">Ремёсла</div>
+            <div class="tab">Просмотрено</div>
+            <div class="tab">Новое</div>
+            <div class="tab">Экшен и приключения</div>
+            <div class="tab">Автомобили</div>
+            <div class="tab">Туризм</div>
+        </div>
+        <ul class="content__list">
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="content__item">
+                <a href="video.html">
+                <iframe class="video" src="https://www.youtube.com/embed/Mdgw9bOBXK8?si=xPii96E-f-vtR_ot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="content__info">
+                    <img src="img/logo1.jpg" alt="" class="content__img">
+                    <div class="content__text-block">
+                        <h2 class="content__title">Видеокарты - ВСЕ! ПРЕДЕЛ РАЗВИТИЯ ПК</h2>
+                        <p class="content__name">Живой</p>
+                        <p class="content__text">1,8 тыс. просмотров 4 дня назад</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</main>
+
+</body>
+</html>
