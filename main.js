@@ -16,6 +16,6 @@ const logoText = document.querySelector(".logo__text")
 logoText.innerText = "ffff"
 logoText.style.color = "red"
 
-function changeText() {
+//function changeText() {
     
-}
+//}
